@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-06-24-11-51-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1412066394.872285	CC2gUx4txZarHDyBAe	192.168.25.146	56181	192.168.25.139	102	tcp	-	0.105092	733	297	S1	-	-	0	ShADda	7	1025	5	501	(empty)
+1412066394.199525	CWayMd4Bdjf3jhYfPa	192.168.25.146	60013	192.168.25.139	102	tcp	-	0.000290	91	0	RSTRH	-	-	0	Dr	1	131	1	40	(empty)
+1412066394.198593	C5pOPJ2LrFnSfDRdQg	192.168.25.146	60012	192.168.25.139	102	tcp	-	0.000265	91	0	RSTRH	-	-	0	Dr	1	131	1	40	(empty)
+1412066394.194976	CHqE5SgdRMsBiwfJf	192.168.25.146	60011	192.168.25.139	102	tcp	-	0.000320	106	0	RSTRH	-	-	0	Dr	1	146	1	40	(empty)
+1412066394.675780	C09bhH1UDA4F7W1Cj8	192.168.25.146	56179	192.168.25.139	102	tcp	-	0.401651	950	486	S1	-	-	0	ShADda	11	1402	8	810	(empty)
+1412066394.773101	CUDNud16DsRirQ5iNi	192.168.25.146	56180	192.168.25.139	102	tcp	-	0.104601	733	297	S1	-	-	0	ShADda	7	1025	5	501	(empty)
+#close	2016-06-24-11-51-38

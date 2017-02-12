@@ -1,0 +1,61 @@
+Vendor,System / Component,Default Port,Metasploit
+Advantech WebAccess,Advantech WebAccess SQL Injection,80,auxiliary/admin/scada/advantech_webaccess_dbvisitor_sqli
+General Electric,GE Proficy Cimplicity WebView substitute.bcl Directory Traversal,80,auxiliary/admin/scada/ge_proficy_substitute_traversal
+Schneider,Schneider Modicon Remote START/STOP Command,502,auxiliary/admin/scada/modicon_command
+Schneider,Schneider Modicon Quantum Password Recovery,21,auxiliary/admin/scada/modicon_password_recovery
+Schneider,Schneider Modicon Ladder Logic Upload/Download,502,auxiliary/admin/scada/modicon_stux_transfer
+Allen-Bradley/Rockwell,Allen-Bradley/Rockwell Automation EtherNet/IP CIP Commands,44818,auxiliary/admin/scada/multi_cip_command
+PhoenixContact PLC,PhoenixContact PLC Remote START/STOP Command,1962,auxiliary/admin/scada/phoenix_command
+Beckhoff,TwinCat,48899,auxiliary/dos/scada/beckhoff_twincat
+General Electric,D20 PLC,69,auxiliary/gather/d20pass
+General Electric,D20 PLC,69,auxiliary/dos/scada/d20_tftp_overflow
+7-Technologies,7-Technologies IGSS 9 IGSSdataServer.exe DoS,12401,auxiliary/dos/scada/igss9_dataserver
+Digi ADDP,Digi ADDP Remote Reboot Initiator,2362,auxiliary/scanner/scada/digi_addp_reboot
+Digi ADDP,Digi ADDP Information Discovery,2362,auxiliary/scanner/scada/digi_addp_version
+Digi International,Advance device Discovery Protocol,771,auxiliary/scanner/scada/digi_realport_serialport_scan
+Digi International,Advance device Discovery Protocol,771,auxiliary/scanner/scada/digi_realport_version
+Indusoft,InduSoft Web Studio Arbitrary Upload Remote Code Execution,4322,exploit/windows/scada/indusoft_webstudio_exec
+Indusoft,Indusoft WebStudio NTWebServer Remote File Access,80,auxiliary/scanner/scada/indusoft_ntwebserver_fileaccess
+Digital Bond,Koyo DirectLogic PLC Password Brute Force Utility,28784,auxiliary/scanner/scada/koyo_login
+EsMnemon,Modbus Client Utility,502,auxiliary/scanner/scada/modbus_findunitid
+EsMnemon and Arnaud Soullie,Modbus Client Utility,502,auxiliary/scanner/scada/modbusclient
+EsMnemon,Modbus Client Utility,502,auxiliary/scanner/scada/modbusdetect
+Siemens Profinet,Siemens Profinet Scanner,,auxiliary/scanner/scada/profinet_siemens
+Sielco Sistemi,Winlog Remote File Access,46824,auxiliary/scanner/scada/sielco_winlog_fileaccess
+KeyHelp,KeyHelp ActiveX LaunchTriPane Remote Code Execution Vulnerability,80,exploit/windows/browser/keyhelp_launchtripane_exec
+TeeChart Professional,TeeChart Professional ActiveX Control Trusted Integer Dereference,8080,exploit/windows/browser/teechart_pro
+KingScada,KingScada kxClientDownload.ocx ActiveX Remote Code Execution,8080,exploit/windows/browser/wellintech_kingscada_kxclientdownload
+BACnet,OPC Client,,exploit/windows/fileformat/bacnet_csv
+ScadaTec,ModbusTag Server ScadaPhone,,exploit/windows/fileformat/scadaphone_zip
+ABB MicroSCADA,ABB MicroSCADA wserver.exe Remote Code Execution,12221,exploit/windows/scada/abb_wserver_exec
+Schneider Electric,CitectSCADA,20222,exploit/windows/scada/citect_scada_odbc
+3S,SCADA 3S CoDeSys Gateway Server Directory Traversal,1211,exploit/windows/scada/codesys_gateway_server_traversal
+3S,SCADA 3S CoDeSys CmpWebServer Stack Buffer Overflow,8080,exploit/windows/scada/codesys_web_server
+AzeoTech,DAQ Factory,20034,exploit/windows/scada/daq_factory_bof
+Siemens Technomati,Siemens FactoryLink 8 CSService Logging Path Param Buffer Overflow,7580,exploit/windows/scada/factorylink_csservice
+Siemens Technomati,Siemens FactoryLink vrn.exe Opcode 9 Buffer Overflow,7579,exploit/windows/scada/factorylink_vrn_09
+General Electric,GE Proficy CIMPLICITY gefebt.exe Remote Code Execution,80,exploit/windows/scada/ge_proficy_cimplicity_gefebt
+Iconics,Iconics GENESIS32 Integer Overflow Version 9.21.201.01,38080,exploit/windows/scada/iconics_genbroker
+Iconics,ICONICS WebHMI ActiveX Buffer Overflow,,exploit/windows/scada/iconics_webhmi_setactivexguid
+7-Technologies,IGSS,12401,exploit/windows/scada/igss9_igssdataserver_listall
+7-Technologies,IGSS,12401,exploit/windows/scada/igss9_igssdataserver_rename
+7-Technologies,IGSS,,exploit/windows/scada/igss9_misc
+7-Technologies,IGSS,12397,exploit/windows/scada/igss_exec_17
+MOXA,MOXA Device Manager Tool 2.1 Buffer Overflow,,exploit/windows/scada/moxa_mdmtool
+Procyon,Procyon Core Server HMI Coreservice.exe Stack Buffer Overflow,23,exploit/windows/scada/procyon_core_server
+DATAC RealWin,DATAC RealWin SCADA Server Buffer Overflow,910,exploit/windows/scada/realwin
+DATAC RealWin,DATAC RealWin SCADA Server 2 On_FC_CONNECT_FCS_a_FILE Buffer Overflow,910,exploit/windows/scada/realwin_on_fc_binfile_a
+DATAC RealWin,RealWin SCADA Server DATAC Login Buffer Overflow,910,exploit/windows/scada/realwin_on_fcs_login
+DATAC RealWin,DATAC RealWin SCADA Server SCPC_INITIALIZE Buffer Overflow,912,exploit/windows/scada/realwin_scpc_initialize
+DATAC RealWin,DATAC RealWin SCADA Server SCPC_INITIALIZE_RF Buffer Overflow,912,exploit/windows/scada/realwin_scpc_initialize_rf
+DATAC RealWin,DATAC RealWin SCADA Server SCPC_TXTEVENT Buffer Overflow,912,exploit/windows/scada/realwin_scpc_txtevent
+Measuresoft ScadaPro,Measuresoft ScadaPro Remote Command Execution,11234,exploit/windows/scada/scadapro_cmdexe
+Sunway Forcecontrol,Sunway Forcecontrol SNMP NetDBServer.exe Opcode 0x57,2001,exploit/windows/scada/sunway_force_control_netdbsrv
+Sielco Sistemi,Sielco Sistemi Winlog Buffer Overflow,46823,exploit/windows/scada/winlog_runtime
+Sielco Sistemi,Sielco Sistemi Winlog Buffer Overflow 2.07.14 - 2.07.16,46824,exploit/windows/scada/winlog_runtime_2
+Yokogawa,Yokogawa CENTUM CS 3000 BKBCopyD.exe Buffer Overflow,20111,exploit/windows/scada/yokogawa_bkbcopyd_bof
+Yokogawa,Yokogawa CS3000 BKESimmgr.exe Buffer Overflow,34205,exploit/windows/scada/yokogawa_bkesimmgr_bof
+Yokogawa,Yokogawa CS3000 BKFSim_vhfd.exe Buffer Overflow,20010,exploit/windows/scada/yokogawa_bkfsim_vhfd
+Yokogawa,Yokogawa CENTUM CS 3000 BKHOdeq.exe Buffer Overflow,20171,exploit/windows/scada/yokogawa_bkhodeq_bof
+Yokogawa,Yokogawa CENTUM CS 3000 BKCLogSvr.exe Heap Buffer Overflow,52302,auxiliary/dos/scada/yokogawa_logsvr
+Yokogawa,Yokogawa BKBCopyD.exe Client,20111,auxiliary/admin/scada/yokogawa_bkbcopyd_client

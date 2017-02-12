@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-06-24-11-51-39
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1408528847.994116	C2Hhrn44k7iZGThVd9	192.168.1.40	49179	192.168.1.10	102	tcp	-	-	-	-	S0	-	-	0	S	1	44	0	0	(empty)
+1408528853.991030	CatomdYzJ7Hky5Bkc	192.168.1.40	49179	192.168.1.10	102	tcp	-	-	-	-	S0	-	-	0	S	1	44	0	0	(empty)
+1408528850.275872	CXcNG31yhvC4ZMZnyg	192.168.1.10	4205	192.168.1.40	102	tcp	-	0.108714	334	668	RSTO	-	-	0	ShADdR	20	1146	10	1072	(empty)
+1408528850.639806	CmBD7W2RtMT1ioq2G7	192.168.1.10	4209	192.168.1.40	102	tcp	-	0.228128	664	1373	RSTO	-	-	0	ShADdaR	38	2196	21	2217	(empty)
+1408528850.417818	CZBViG2HRNLbhGFBT1	192.168.1.10	4206	192.168.1.40	102	tcp	-	0.033013	138	163	RSTO	-	-	0	ShADdR	10	550	5	367	(empty)
+1408528850.558821	CV1mKa2rSOIxxAurQk	192.168.1.10	4208	192.168.1.40	102	tcp	-	0.066543	138	163	RSTO	-	-	0	ShADdaR	10	550	6	407	(empty)
+1408528850.465780	CCH60g1aA7ZaNuOM53	192.168.1.10	4207	192.168.1.40	102	tcp	-	0.063259	168	228	RSTO	-	-	0	ShADdR	12	660	6	472	(empty)
+#close	2016-06-24-11-51-39

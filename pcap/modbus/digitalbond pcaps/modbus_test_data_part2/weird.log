@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2016-06-24-11-49-29
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1153491905.638732	C8iUZaLS8ANQ9l8U	192.168.66.235	2582	166.161.16.230	502	binpac exception: out_of_bound: MaskWriteRegisterRequest: 6 > 4	-	F	bro
+1153491906.170715	C8iUZaLS8ANQ9l8U	192.168.66.235	2582	166.161.16.230	502	binpac exception: out_of_bound: ReadWriteMultipleRegistersRequest:write_byte_count: 9 > 4	-	F	bro
+#close	2016-06-24-11-49-29

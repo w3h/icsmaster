@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2016-06-24-11-51-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1414243770.128254	CED9zmf1QODJTiFDe	192.168.1.35	49178	192.168.1.191	102	tcp	-	0.110517	491	238	RSTO	-	-	0	ShADdaR	10	903	6	482	(empty)
+1414243770.272661	CV4XZw96C4Irl5HB2	192.168.1.35	49179	192.168.1.191	102	tcp	-	31.178161	1953	1942	RSTO	-	-	0	ShADdaR	70	4765	83	5266	(empty)
+#close	2016-06-24-11-51-15
