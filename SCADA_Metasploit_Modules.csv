@@ -7,7 +7,7 @@ Schneider,Schneider Modicon Ladder Logic Upload/Download,502,auxiliary/admin/sca
 Allen-Bradley/Rockwell,Allen-Bradley/Rockwell Automation EtherNet/IP CIP Commands,44818,auxiliary/admin/scada/multi_cip_command
 PhoenixContact PLC,PhoenixContact PLC Remote START/STOP Command,1962,auxiliary/admin/scada/phoenix_command
 Beckhoff,TwinCat,48899,auxiliary/dos/scada/beckhoff_twincat
-General Electric,D20 PLC,69,auxiliary/gather/d20pass
+General Electric,D20 PLC,2,auxiliary/gather/d20pass
 General Electric,D20 PLC,69,auxiliary/dos/scada/d20_tftp_overflow
 7-Technologies,7-Technologies IGSS 9 IGSSdataServer.exe DoS,12401,auxiliary/dos/scada/igss9_dataserver
 Digi ADDP,Digi ADDP Remote Reboot Initiator,2362,auxiliary/scanner/scada/digi_addp_reboot
