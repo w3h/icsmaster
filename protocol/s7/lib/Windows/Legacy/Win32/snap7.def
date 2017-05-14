@@ -1,0 +1,256 @@
+; dlltool --base-file C:\Users\DAVIDE~1.NAR\AppData\Local\Temp\cca04712.base --output-exp snap7.exp --dllname snap7.dll --output-def ../../bin/Legacy/win32/snap7.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\DAVIDE~1.NAR\AppData\Local\Temp\cca04712.def
+EXPORTS
+	Cli_ABRead = Cli_ABRead@16 @ 1
+	Cli_ABRead@16 @ 2
+	Cli_ABWrite = Cli_ABWrite@16 @ 3
+	Cli_ABWrite@16 @ 4
+	Cli_AsABRead = Cli_AsABRead@16 @ 5
+	Cli_AsABRead@16 @ 6
+	Cli_AsABWrite = Cli_AsABWrite@16 @ 7
+	Cli_AsABWrite@16 @ 8
+	Cli_AsCTRead = Cli_AsCTRead@16 @ 9
+	Cli_AsCTRead@16 @ 10
+	Cli_AsCTWrite = Cli_AsCTWrite@16 @ 11
+	Cli_AsCTWrite@16 @ 12
+	Cli_AsCompress = Cli_AsCompress@8 @ 13
+	Cli_AsCompress@8 @ 14
+	Cli_AsCopyRamToRom = Cli_AsCopyRamToRom@8 @ 15
+	Cli_AsCopyRamToRom@8 @ 16
+	Cli_AsDBFill = Cli_AsDBFill@12 @ 17
+	Cli_AsDBFill@12 @ 18
+	Cli_AsDBGet = Cli_AsDBGet@16 @ 19
+	Cli_AsDBGet@16 @ 20
+	Cli_AsDBRead = Cli_AsDBRead@20 @ 21
+	Cli_AsDBRead@20 @ 22
+	Cli_AsDBWrite = Cli_AsDBWrite@20 @ 23
+	Cli_AsDBWrite@20 @ 24
+	Cli_AsDownload = Cli_AsDownload@16 @ 25
+	Cli_AsDownload@16 @ 26
+	Cli_AsEBRead = Cli_AsEBRead@16 @ 27
+	Cli_AsEBRead@16 @ 28
+	Cli_AsEBWrite = Cli_AsEBWrite@16 @ 29
+	Cli_AsEBWrite@16 @ 30
+	Cli_AsFullUpload = Cli_AsFullUpload@20 @ 31
+	Cli_AsFullUpload@20 @ 32
+	Cli_AsListBlocksOfType = Cli_AsListBlocksOfType@16 @ 33
+	Cli_AsListBlocksOfType@16 @ 34
+	Cli_AsMBRead = Cli_AsMBRead@16 @ 35
+	Cli_AsMBRead@16 @ 36
+	Cli_AsMBWrite = Cli_AsMBWrite@16 @ 37
+	Cli_AsMBWrite@16 @ 38
+	Cli_AsReadArea = Cli_AsReadArea@28 @ 39
+	Cli_AsReadArea@28 @ 40
+	Cli_AsReadSZL = Cli_AsReadSZL@20 @ 41
+	Cli_AsReadSZL@20 @ 42
+	Cli_AsReadSZLList = Cli_AsReadSZLList@12 @ 43
+	Cli_AsReadSZLList@12 @ 44
+	Cli_AsTMRead = Cli_AsTMRead@16 @ 45
+	Cli_AsTMRead@16 @ 46
+	Cli_AsTMWrite = Cli_AsTMWrite@16 @ 47
+	Cli_AsTMWrite@16 @ 48
+	Cli_AsUpload = Cli_AsUpload@20 @ 49
+	Cli_AsUpload@20 @ 50
+	Cli_AsWriteArea = Cli_AsWriteArea@28 @ 51
+	Cli_AsWriteArea@28 @ 52
+	Cli_CTRead = Cli_CTRead@16 @ 53
+	Cli_CTRead@16 @ 54
+	Cli_CTWrite = Cli_CTWrite@16 @ 55
+	Cli_CTWrite@16 @ 56
+	Cli_CheckAsCompletion = Cli_CheckAsCompletion@8 @ 57
+	Cli_CheckAsCompletion@8 @ 58
+	Cli_ClearSessionPassword = Cli_ClearSessionPassword@4 @ 59
+	Cli_ClearSessionPassword@4 @ 60
+	Cli_Compress = Cli_Compress@8 @ 61
+	Cli_Compress@8 @ 62
+	Cli_Connect = Cli_Connect@4 @ 63
+	Cli_Connect@4 @ 64
+	Cli_ConnectTo = Cli_ConnectTo@16 @ 65
+	Cli_ConnectTo@16 @ 66
+	Cli_CopyRamToRom = Cli_CopyRamToRom@8 @ 67
+	Cli_CopyRamToRom@8 @ 68
+	Cli_Create = Cli_Create@0 @ 69
+	Cli_Create@0 @ 70
+	Cli_DBFill = Cli_DBFill@12 @ 71
+	Cli_DBFill@12 @ 72
+	Cli_DBGet = Cli_DBGet@16 @ 73
+	Cli_DBGet@16 @ 74
+	Cli_DBRead = Cli_DBRead@20 @ 75
+	Cli_DBRead@20 @ 76
+	Cli_DBWrite = Cli_DBWrite@20 @ 77
+	Cli_DBWrite@20 @ 78
+	Cli_Delete = Cli_Delete@12 @ 79
+	Cli_Delete@12 @ 80
+	Cli_Destroy = Cli_Destroy@4 @ 81
+	Cli_Destroy@4 @ 82
+	Cli_Disconnect = Cli_Disconnect@4 @ 83
+	Cli_Disconnect@4 @ 84
+	Cli_Download = Cli_Download@16 @ 85
+	Cli_Download@16 @ 86
+	Cli_EBRead = Cli_EBRead@16 @ 87
+	Cli_EBRead@16 @ 88
+	Cli_EBWrite = Cli_EBWrite@16 @ 89
+	Cli_EBWrite@16 @ 90
+	Cli_ErrorText = Cli_ErrorText@12 @ 91
+	Cli_ErrorText@12 @ 92
+	Cli_FullUpload = Cli_FullUpload@20 @ 93
+	Cli_FullUpload@20 @ 94
+	Cli_GetAgBlockInfo = Cli_GetAgBlockInfo@16 @ 95
+	Cli_GetAgBlockInfo@16 @ 96
+	Cli_GetConnected = Cli_GetConnected@8 @ 97
+	Cli_GetConnected@8 @ 98
+	Cli_GetCpInfo = Cli_GetCpInfo@8 @ 99
+	Cli_GetCpInfo@8 @ 100
+	Cli_GetCpuInfo = Cli_GetCpuInfo@8 @ 101
+	Cli_GetCpuInfo@8 @ 102
+	Cli_GetExecTime = Cli_GetExecTime@8 @ 103
+	Cli_GetExecTime@8 @ 104
+	Cli_GetLastError = Cli_GetLastError@8 @ 105
+	Cli_GetLastError@8 @ 106
+	Cli_GetOrderCode = Cli_GetOrderCode@8 @ 107
+	Cli_GetOrderCode@8 @ 108
+	Cli_GetParam = Cli_GetParam@12 @ 109
+	Cli_GetParam@12 @ 110
+	Cli_GetPduLength = Cli_GetPduLength@12 @ 111
+	Cli_GetPduLength@12 @ 112
+	Cli_GetPgBlockInfo = Cli_GetPgBlockInfo@16 @ 113
+	Cli_GetPgBlockInfo@16 @ 114
+	Cli_GetPlcDateTime = Cli_GetPlcDateTime@8 @ 115
+	Cli_GetPlcDateTime@8 @ 116
+	Cli_GetPlcStatus = Cli_GetPlcStatus@8 @ 117
+	Cli_GetPlcStatus@8 @ 118
+	Cli_GetProtection = Cli_GetProtection@8 @ 119
+	Cli_GetProtection@8 @ 120
+	Cli_IsoExchangeBuffer = Cli_IsoExchangeBuffer@12 @ 121
+	Cli_IsoExchangeBuffer@12 @ 122
+	Cli_ListBlocks = Cli_ListBlocks@8 @ 123
+	Cli_ListBlocks@8 @ 124
+	Cli_ListBlocksOfType = Cli_ListBlocksOfType@16 @ 125
+	Cli_ListBlocksOfType@16 @ 126
+	Cli_MBRead = Cli_MBRead@16 @ 127
+	Cli_MBRead@16 @ 128
+	Cli_MBWrite = Cli_MBWrite@16 @ 129
+	Cli_MBWrite@16 @ 130
+	Cli_PlcColdStart = Cli_PlcColdStart@4 @ 131
+	Cli_PlcColdStart@4 @ 132
+	Cli_PlcHotStart = Cli_PlcHotStart@4 @ 133
+	Cli_PlcHotStart@4 @ 134
+	Cli_PlcStop = Cli_PlcStop@4 @ 135
+	Cli_PlcStop@4 @ 136
+	Cli_ReadArea = Cli_ReadArea@28 @ 137
+	Cli_ReadArea@28 @ 138
+	Cli_ReadMultiVars = Cli_ReadMultiVars@12 @ 139
+	Cli_ReadMultiVars@12 @ 140
+	Cli_ReadSZL = Cli_ReadSZL@20 @ 141
+	Cli_ReadSZL@20 @ 142
+	Cli_ReadSZLList = Cli_ReadSZLList@12 @ 143
+	Cli_ReadSZLList@12 @ 144
+	Cli_SetAsCallback = Cli_SetAsCallback@12 @ 145
+	Cli_SetAsCallback@12 @ 146
+	Cli_SetConnectionParams = Cli_SetConnectionParams@16 @ 147
+	Cli_SetConnectionParams@16 @ 148
+	Cli_SetConnectionType = Cli_SetConnectionType@8 @ 149
+	Cli_SetConnectionType@8 @ 150
+	Cli_SetParam = Cli_SetParam@12 @ 151
+	Cli_SetParam@12 @ 152
+	Cli_SetPlcDateTime = Cli_SetPlcDateTime@8 @ 153
+	Cli_SetPlcDateTime@8 @ 154
+	Cli_SetPlcSystemDateTime = Cli_SetPlcSystemDateTime@4 @ 155
+	Cli_SetPlcSystemDateTime@4 @ 156
+	Cli_SetSessionPassword = Cli_SetSessionPassword@8 @ 157
+	Cli_SetSessionPassword@8 @ 158
+	Cli_TMRead = Cli_TMRead@16 @ 159
+	Cli_TMRead@16 @ 160
+	Cli_TMWrite = Cli_TMWrite@16 @ 161
+	Cli_TMWrite@16 @ 162
+	Cli_Upload = Cli_Upload@20 @ 163
+	Cli_Upload@20 @ 164
+	Cli_WaitAsCompletion = Cli_WaitAsCompletion@8 @ 165
+	Cli_WaitAsCompletion@8 @ 166
+	Cli_WriteArea = Cli_WriteArea@28 @ 167
+	Cli_WriteArea@28 @ 168
+	Cli_WriteMultiVars = Cli_WriteMultiVars@12 @ 169
+	Cli_WriteMultiVars@12 @ 170
+	Par_AsBSend = Par_AsBSend@16 @ 171
+	Par_AsBSend@16 @ 172
+	Par_BRecv = Par_BRecv@20 @ 173
+	Par_BRecv@20 @ 174
+	Par_BSend = Par_BSend@16 @ 175
+	Par_BSend@16 @ 176
+	Par_CheckAsBRecvCompletion = Par_CheckAsBRecvCompletion@20 @ 177
+	Par_CheckAsBRecvCompletion@20 @ 178
+	Par_CheckAsBSendCompletion = Par_CheckAsBSendCompletion@8 @ 179
+	Par_CheckAsBSendCompletion@8 @ 180
+	Par_Create = Par_Create@4 @ 181
+	Par_Create@4 @ 182
+	Par_Destroy = Par_Destroy@4 @ 183
+	Par_Destroy@4 @ 184
+	Par_ErrorText = Par_ErrorText@12 @ 185
+	Par_ErrorText@12 @ 186
+	Par_GetLastError = Par_GetLastError@8 @ 187
+	Par_GetLastError@8 @ 188
+	Par_GetParam = Par_GetParam@12 @ 189
+	Par_GetParam@12 @ 190
+	Par_GetStats = Par_GetStats@20 @ 191
+	Par_GetStats@20 @ 192
+	Par_GetStatus = Par_GetStatus@8 @ 193
+	Par_GetStatus@8 @ 194
+	Par_GetTimes = Par_GetTimes@12 @ 195
+	Par_GetTimes@12 @ 196
+	Par_SetParam = Par_SetParam@12 @ 197
+	Par_SetParam@12 @ 198
+	Par_SetRecvCallback = Par_SetRecvCallback@12 @ 199
+	Par_SetRecvCallback@12 @ 200
+	Par_SetSendCallback = Par_SetSendCallback@12 @ 201
+	Par_SetSendCallback@12 @ 202
+	Par_Start = Par_Start@4 @ 203
+	Par_Start@4 @ 204
+	Par_StartTo = Par_StartTo@20 @ 205
+	Par_StartTo@20 @ 206
+	Par_Stop = Par_Stop@4 @ 207
+	Par_Stop@4 @ 208
+	Par_WaitAsBSendCompletion = Par_WaitAsBSendCompletion@8 @ 209
+	Par_WaitAsBSendCompletion@8 @ 210
+	Srv_ClearEvents = Srv_ClearEvents@4 @ 211
+	Srv_ClearEvents@4 @ 212
+	Srv_Create = Srv_Create@0 @ 213
+	Srv_Create@0 @ 214
+	Srv_Destroy = Srv_Destroy@4 @ 215
+	Srv_Destroy@4 @ 216
+	Srv_ErrorText = Srv_ErrorText@12 @ 217
+	Srv_ErrorText@12 @ 218
+	Srv_EventText = Srv_EventText@12 @ 219
+	Srv_EventText@12 @ 220
+	Srv_GetMask = Srv_GetMask@12 @ 221
+	Srv_GetMask@12 @ 222
+	Srv_GetParam = Srv_GetParam@12 @ 223
+	Srv_GetParam@12 @ 224
+	Srv_GetStatus = Srv_GetStatus@16 @ 225
+	Srv_GetStatus@16 @ 226
+	Srv_LockArea = Srv_LockArea@12 @ 227
+	Srv_LockArea@12 @ 228
+	Srv_PickEvent = Srv_PickEvent@12 @ 229
+	Srv_PickEvent@12 @ 230
+	Srv_RegisterArea = Srv_RegisterArea@20 @ 231
+	Srv_RegisterArea@20 @ 232
+	Srv_SetCpuStatus = Srv_SetCpuStatus@8 @ 233
+	Srv_SetCpuStatus@8 @ 234
+	Srv_SetEventsCallback = Srv_SetEventsCallback@12 @ 235
+	Srv_SetEventsCallback@12 @ 236
+	Srv_SetMask = Srv_SetMask@12 @ 237
+	Srv_SetMask@12 @ 238
+	Srv_SetParam = Srv_SetParam@12 @ 239
+	Srv_SetParam@12 @ 240
+	Srv_SetRWAreaCallback = Srv_SetRWAreaCallback@12 @ 241
+	Srv_SetRWAreaCallback@12 @ 242
+	Srv_SetReadEventsCallback = Srv_SetReadEventsCallback@12 @ 243
+	Srv_SetReadEventsCallback@12 @ 244
+	Srv_Start = Srv_Start@4 @ 245
+	Srv_Start@4 @ 246
+	Srv_StartTo = Srv_StartTo@8 @ 247
+	Srv_StartTo@8 @ 248
+	Srv_Stop = Srv_Stop@4 @ 249
+	Srv_Stop@4 @ 250
+	Srv_UnlockArea = Srv_UnlockArea@12 @ 251
+	Srv_UnlockArea@12 @ 252
+	Srv_UnregisterArea = Srv_UnregisterArea@12 @ 253
+	Srv_UnregisterArea@12 @ 254
