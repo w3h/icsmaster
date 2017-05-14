@@ -5,11 +5,17 @@
 # 目录说明
 
 -- doc         收集Paper
+
 -- exploit     收集利用脚本
+
 -- firmware    收集固件
+
 -- nse         收集Nmap脚本
+
 -- pcap        收集工控协议数据包
+
 -- protocol    收集工控协议库
+
 -- tool        收集相关工具
 
 
